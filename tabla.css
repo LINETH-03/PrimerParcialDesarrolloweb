@@ -1,0 +1,45 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: white;
+}
+
+.contenedor{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: violet; 
+}
+
+.estudiantes{
+    border-collapse: collapse;
+    margin: 20px;
+    background-color: #ffffff;
+    
+
+}
+
+.estudiantes th, .estudiantes td {
+    padding: 5px;
+    margin: 5px;
+    border: 1px solid black;
+}
+
+.estudiantes th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+    text-align: left;
+}
+
+.estudiantes tr:hover td {
+    background-color: greenyellow;
+}
