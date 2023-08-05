@@ -1,0 +1,45 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+
+    font-family: sans-serif;
+}
+a{
+    text-decoration: none;
+    color: #000;
+}
+
+.contenedor {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: violet; 
+}
+
+.lista {
+    font-size: 14px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    margin: 20px 0;
+}
+
+a {
+    color: blue;
+    font-size: 14px;
+    transition: font-size 0.2s ease;
+}
+
+a:hover {
+    font-size: 30px;
+}
